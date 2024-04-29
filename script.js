@@ -4,7 +4,11 @@ const listaHtml = document.querySelector("#tbody")              //body
 const totalTareas = document.querySelector("#total_tareas")    //total
 const tareasRealizadas = document.querySelector("#tareas_realizadas")
 
-const listaDeTareas = []
+const listaDeTareas = [
+    {id: 200, nombre: "Estudiar",completado: false},
+    {id: 300, nombre: "Hacer las compras",completado: false},
+    {id: 400, nombre: "Ordenar la ropa",completado: false}
+]
 
 botonAgregar.addEventListener("click", () => {
     const tareasNuevas = { id: Date.now(), nombre: inputTareas.value,completado: false}
