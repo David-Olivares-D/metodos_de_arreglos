@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="general">
+        <H2>LISTA DE TAREAS</H2>
+        <div class="middlesection">
+            <p>Nueva tarea</p>
+            <div>
+                <input id="ingresarTarea"  type="text">
+                <button id="btnAgregar">Agregar</button>
+            </div>
+            <div class="listado_tareas">
+                <div class="left">
+                    <p>Total tareas:
+                        <span id="total_tareas">   </span>
+                    </p>
+                    <p>Realizadas:
+                        <span id="tareas_realizadas">   </span>
+                    </p>
+                </div>
+                <div class="right">
+                    <div id="box">
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th class="th1"> ID  </th>
+                                    <th class="th2"> Tarea  </th>
+                                    <th class="th3"> Acciones  </th>
+                                </tr>
+                            </thead>
+                            <tbody id="tbody">
+                                <tr>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"> </script>
+</body>
+</html>

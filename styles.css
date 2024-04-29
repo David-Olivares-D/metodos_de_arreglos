@@ -1,0 +1,74 @@
+.general{
+    border: 2px solid black;
+    height: 350px;
+    width: 90vw;
+}
+
+h2 {
+    padding-left: 15px;
+    border-bottom: 1px solid gray;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.middlesection p {
+    margin-left: 15px;
+}
+
+input {
+    width: 70vw;
+    margin-left: 10px;
+}
+
+.listado_tareas {
+    display: flex;
+}
+
+.left {
+ width: 40vw;
+}
+
+#box {
+    margin-top: 15px;
+    margin-right: 5px;
+    border: 1.5px solid red;
+    height: 207px;
+    width: 50vw;
+}
+
+table {
+    width: 100%;
+}
+
+table tr{
+    max-width: 100%;
+}
+
+.th1 {
+    width: 33%;
+    text-align: center;
+    justify-content: center;
+    border: 2px solid black;
+}
+
+.th2 {
+    width: 33%;
+    text-align: center;
+    justify-content: center;
+    border: 2px solid black;
+}
+
+.th3 {
+    text-align: center;
+    width: 33%;
+    border: 2px solid black;
+}
+
+#tbody td{
+    width: auto;
+    max-width: 100px;
+}
+
+#tbody input{
+    max-width: fit-content;
+}
